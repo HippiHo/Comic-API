@@ -1,3 +1,5 @@
+XKCD Comics
+
 # Bootstrap 4 + WebPack 4 = Boilerplate
 
 This is a basic boilerplate using Bootstrap 4 with SCSS and WebPack, to have an easy and fast setup for new website projects to build upon.
@@ -14,4 +16,5 @@ Run the command `npm run build` to run webpack in `production` mode.
 ## Development
 
 Run the command `npm run dev` to run webpack and let it watch for file changes to recompile, when needed.
+
 # Comic-Api
