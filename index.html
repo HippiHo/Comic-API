@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Comic API</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+
+    <link rel="stylesheet" href="dist/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="mb-4">XKCD Comics</h1>
+
+      <form class="form-inline">
+        <div class="form-group mx-sm-2 mb-3">
+          <input
+            type="text"
+            class="form-control mr-2"
+            placeholder="Comic number"
+          />
+          <button type="submit" class="byNr btn btn-secondary">
+            Get comic by number
+          </button>
+        </div>
+      </form>
+      <div class="container indirect-detection">
+        <h2 class="mb-2">Indirect Detection</h2>
+        <div class="btn-group">
+          <button type="button" class="prev btn btn-secondary mr-2">
+            << Prev
+          </button>
+          <button type="button" class="random btn btn-secondary mr-2">
+            Random
+          </button>
+          <button type="button" class="next btn btn-secondary">Next >></button>
+        </div>
+
+        <div id="comic" class="mt-3"></div>
+        <div id="date"></div>
+        <br />
+      </div>
+    </div>
+
+    <script src="dist/main.bundle.js"></script>
+  </body>
+</html>
